@@ -6,6 +6,8 @@ This extension provides useful snippets for debugging with the Query Monitor plu
 
 Quickly insert debugging snippets in your PHP code by typing 'qm' to trigger suggestions from Query Monitor WordPress Snippets.
 
+![Demo](images/preview.gif)
+
 ## Requirements
 
 This extension requires Visual Studio Code 1.6.0 or higher.
