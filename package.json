@@ -4,7 +4,7 @@
   "description": "Adds useful snippets to debug information with the Query Monitor WordPress Plugin.",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.6.0"
   },
   "categories": [
     "Other"
@@ -12,10 +12,12 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "query-monitor-wordpress-snippets.helloWorld",
-      "title": "Hello World"
-    }]
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/qm.json"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",

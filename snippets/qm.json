@@ -1,0 +1,72 @@
+{
+    "Log Debug to Query Monitor": {
+        "prefix": "qm/debug",
+        "body": [
+            "do_action( 'qm/debug', '${1:Debug message}' );"
+        ],
+        "description": "Log a debug message to Query Monitor."
+    },
+    "Log Notice to Query Monitor": {
+        "prefix": "qm/notice",
+        "body": [
+            "do_action( 'qm/notice', '${1:Notice message}' );"
+        ],
+        "description": "Log a notice message to Query Monitor."
+    },
+    "Log Warning to Query Monitor": {
+        "prefix": "qm/warning",
+        "body": [
+            "do_action( 'qm/warning', '${1:Warning message}' );"
+        ],
+        "description": "Log a warning message to Query Monitor."
+    },
+    "Log Error to Query Monitor": {
+        "prefix": "qm/error",
+        "body": [
+            "do_action( 'qm/error', '${1:Error message}' );"
+        ],
+        "description": "Log an error message to Query Monitor."
+    },
+    "Log Critical to Query Monitor": {
+        "prefix": "qm/critical",
+        "body": [
+            "do_action( 'qm/critical', '${1:Critical message}' );"
+        ],
+        "description": "Log a critical message to Query Monitor."
+    },
+    "Log Alert to Query Monitor": {
+        "prefix": "qm/alert",
+        "body": [
+            "do_action( 'qm/alert', '${1:Alert message}' );"
+        ],
+        "description": "Log an alert message to Query Monitor."
+    },
+    "Log Emergency to Query Monitor": {
+        "prefix": "qm/emergency",
+        "body": [
+            "do_action( 'qm/emergency', '${1:Emergency message}' );"
+        ],
+        "description": "Log an emergency message to Query Monitor."
+    },
+    "Assert in Query Monitor": {
+        "prefix": "qm/assert",
+        "body": [
+            "do_action( 'qm/assert', ${1:condition} );"
+        ],
+        "description": "Assert a condition in Query Monitor."
+    },
+    "Assert with Message in Query Monitor": {
+        "prefix": "qm/assert_msg",
+        "body": [
+            "do_action( 'qm/assert', ${1:condition}, '${2:Assertion message}' );"
+        ],
+        "description": "Assert a condition with a message in Query Monitor."
+    },
+    "Assert with Message and Data in Query Monitor": {
+        "prefix": "qm/assert_msg_data",
+        "body": [
+            "do_action( 'qm/assert', ${1:condition}, '${2:Assertion message}', ${3:data} );"
+        ],
+        "description": "Assert a condition with a message and data in Query Monitor."
+    }
+}
