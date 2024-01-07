@@ -3,7 +3,7 @@ const vscode = require('vscode');
 
 suite('Snippet Tests', () => {
     test('Snippets file should be loaded', async () => {
-        const publisher_name = 'undefined_publisher';
+        const publisher_name = 'eduwass';
         const extension = vscode.extensions.getExtension(publisher_name + '.query-monitor-wordpress-snippets');
         await extension.activate();
         const snippets = extension.packageJSON.contributes.snippets;

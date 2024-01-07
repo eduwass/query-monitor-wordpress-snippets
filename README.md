@@ -6,7 +6,7 @@ This extension provides useful snippets for debugging with the Query Monitor plu
 
 Quickly insert debugging snippets in your PHP code by typing 'qm' to trigger suggestions from Query Monitor WordPress Snippets.
 
-![Demo](images/preview.gif)
+![Demo](https://github.com/eduwass/query-monitor-wordpress-snippets/blob/main/images/preview.gif?raw=true)
 
 ## Requirements
 

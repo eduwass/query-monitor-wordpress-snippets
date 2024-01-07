@@ -3,6 +3,12 @@
   "displayName": "Query Monitor WordPress Snippets",
   "description": "Adds useful snippets to debug information with the Query Monitor WordPress Plugin.",
   "version": "0.0.1",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eduwass/query-monitor-wordpress-snippets"
+  },
+  "publisher": "eduwass",
   "engines": {
     "vscode": "^1.6.0"
   },
@@ -25,7 +31,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.85.0",
+    "@types/vscode": "^1.6.0",
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
     "eslint": "^8.56.0",
