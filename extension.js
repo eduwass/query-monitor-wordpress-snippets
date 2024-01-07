@@ -12,7 +12,7 @@ function activate(context) {
 
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
-	console.log('Congratulations, your extension "query-monitor-wordpress-snippets" is now active!');
+	console.log('Congratulations, "query-monitor-wordpress-snippets" is now active!');
 
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with  registerCommand
@@ -21,7 +21,7 @@ function activate(context) {
 		// The code you place here will be executed every time your command is executed
 
 		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from Query Monitor WordPress Snippets!');
+		vscode.window.showInformationMessage('Start typing \'qm\' in a PHP file and suggestions from Query Monitor WordPress Snippets should appear.');
 	});
 
 	context.subscriptions.push(disposable);
