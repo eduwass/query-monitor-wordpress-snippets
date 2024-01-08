@@ -2,11 +2,34 @@
 
 This extension provides useful snippets for debugging with the Query Monitor plugin in WordPress development.
 
+It requires the [Query Monitor plugin](https://wordpress.org/plugins/query-monitor/) to be installed and activated in your WordPress installation.
+
+Note that this extension is not affiliated with the Query Monitor plugin.
+
 ## Features
 
 Quickly insert debugging snippets in your PHP code by typing 'qm' to trigger suggestions from Query Monitor WordPress Snippets.
 
 ![Demo](https://github.com/eduwass/query-monitor-wordpress-snippets/blob/main/images/preview.gif?raw=true)
+
+## Snippets
+
+| Snippet | Description |
+| ------- | ----------- |
+| qm/debug | Inserts a debug message in the Query Monitor panel. |
+| qm/notice | Inserts a notice message in the Query Monitor panel. |
+| qm/warning | Inserts a warning message in the Query Monitor panel. |
+| qm/error | Inserts an error message in the Query Monitor panel. |
+| qm/critical | Inserts a critical message in the Query Monitor panel. |
+| qm/alert | Inserts an alert message in the Query Monitor panel. |
+| qm/emergency | Inserts an emergency message in the Query Monitor panel. |
+| qm/assert | Inserts an assertion in the Query Monitor panel. |
+| qm/assert_msg | Inserts an assertion with a message in the Query Monitor panel. |
+| qm/assert_msg_data | Inserts an assertion with a message and data in the Query Monitor panel. |
+
+For more information on what each of these messages do, see the [Query Monitor documentation](https://querymonitor.com/).
+
+
 
 ## Requirements
 
