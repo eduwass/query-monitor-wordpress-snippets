@@ -12,8 +12,6 @@ Quickly insert debugging snippets in your PHP code by typing 'qm' to trigger sug
 
 ![Demo](https://github.com/eduwass/query-monitor-wordpress-snippets/blob/main/images/preview.gif?raw=true)
 
-## Snippets
-
 | Snippet | Description |
 | ------- | ----------- |
 | qm/debug | Inserts a debug message in the Query Monitor panel. |
@@ -40,6 +38,10 @@ This extension requires Visual Studio Code 1.6.0 or higher.
 No known issues at this time.
 
 ## Release Notes
+
+### 0.0.5
+
+Updated README.md.
 
 ### 0.0.1
 
