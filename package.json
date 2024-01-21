@@ -2,7 +2,7 @@
   "name": "query-monitor-wordpress-snippets",
   "displayName": "Query Monitor WordPress Snippets",
   "description": "Adds useful snippets to debug information with the Query Monitor WordPress Plugin.",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "icon": "images/icon.png",
   "repository": {
     "type": "git",

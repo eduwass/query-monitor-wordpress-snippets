@@ -24,6 +24,9 @@ Quickly insert debugging snippets in your PHP code by typing 'qm' to trigger sug
 | qm/assert | Inserts an assertion in the Query Monitor panel. |
 | qm/assert_msg | Inserts an assertion with a message in the Query Monitor panel. |
 | qm/assert_msg_data | Inserts an assertion with a message and data in the Query Monitor panel. |
+| qm/start | Starts a timer in the Query Monitor panel. |
+| qm/lap | Adds a lap to a timer in the Query Monitor panel. |
+| qm/stop | Stops a timer in the Query Monitor panel. |
 
 For more information on what each of these messages do, see the [Query Monitor documentation](https://querymonitor.com/).
 
@@ -39,9 +42,10 @@ No known issues at this time.
 
 ## Release Notes
 
-### 0.0.6
+### 0.1.0
 
 Add support for `qm/start`, `qm/lap`, and `qm/stop` snippets.
+Update README.md.
 
 ### 0.0.5
 
