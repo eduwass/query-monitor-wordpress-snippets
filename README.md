@@ -39,6 +39,10 @@ No known issues at this time.
 
 ## Release Notes
 
+### 0.0.6
+
+Add support for `qm/start`, `qm/lap`, and `qm/stop` snippets.
+
 ### 0.0.5
 
 Updated README.md.
