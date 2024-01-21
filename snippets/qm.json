@@ -68,5 +68,26 @@
             "do_action( 'qm/assert', ${1:condition}, '${2:Assertion message}', ${3:data} );"
         ],
         "description": "Assert a condition with a message and data in Query Monitor."
+    },
+    "Start Timer in Query Monitor": {
+        "prefix": "qm/start",
+        "body": [
+            "do_action( 'qm/start', '${1:Timer name}' );"
+        ],
+        "description": "Start a timer in Query Monitor."
+    },
+    "Lap Timer in Query Monitor": {
+        "prefix": "qm/lap",
+        "body": [
+            "do_action( 'qm/lap', '${1:Timer name}' );"
+        ],
+        "description": "Record a lap in a timer in Query Monitor."
+    },
+    "Stop Timer in Query Monitor": {
+        "prefix": "qm/stop",
+        "body": [
+            "do_action( 'qm/stop', '${1:Timer name}' );"
+        ],
+        "description": "Stop a timer in Query Monitor."
     }
 }
